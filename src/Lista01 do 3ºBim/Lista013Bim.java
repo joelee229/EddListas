@@ -97,9 +97,10 @@ public class Lista013Bim extends JFrame {
 		jb7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					int dep = Integer.parseInt(dfm.getText());
-					int juros = Integer.parseInt(tr.getText());
-					int quanti = Integer.parseInt(qtdm.getText());
+					double dep = Integer.parseInt(dfm.getText());
+					double juros = Integer.parseInt(tr.getText());
+					double quanti = Integer.parseInt(qtdm.getText());
+					juros = juros/100;
 					double mont = (1+juros)*(Math.pow(1+juros, quanti)-1/juros)*dep;
 					jtfres.setText(mont+"");
 				}catch(Exception ae){
