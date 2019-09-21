@@ -1,8 +1,18 @@
 package Lista01_3Bim;
-import javax.swing.*;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-import java.awt.*;
-import java.awt.event.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
 public class Lista013Bim extends JFrame {
 	JButton jb1,jb2,jb3,jb4,jb5,jb6,jb7;
 	JLabel jl1,jl7,jlt, jldfm,jltr,jlqtdm,jlesp1, jlM,jlesp2,jldev;
